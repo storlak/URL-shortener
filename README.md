@@ -1,7 +1,7 @@
-# URL SHORTENER README FILE
+# URL SHORTENER ReadMe FILE
 URL Shortener is a simple program written in Python to shorten long URLs. 
 It features a user-friendly interface built using Tkinter library. 
-URLs are shortened using the pyshorteners library with the tinyurl service.
+URLs are shortened using the pyshorteners library with the tinyurl service. New URL's are valid lifetime and do not expire.
 
 ## CONTENTS
 1. [How to Use](#how-to-use)
@@ -29,9 +29,10 @@ The generated URL is permanent and will always be valid.
 The URL field cannot be left blank. If left empty, you will receive a warning and the program will not execute.
 ## Versions and Changes
 🔻Version 2.0 - 26.03.2024
-- Code broken into smaller funcs and classes.
-- Modular: easier to handle.
+- Code broken into smaller functions and classes.
+- More Modular: easier to handle.
 - All versions of 1.0 removed.
+- ReadMe file updated.
 
 🔻Version 1.02 - 25.03.2024
 - Top menu added. File, Edit, Tools, Help created.
