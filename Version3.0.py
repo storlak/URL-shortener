@@ -5,7 +5,7 @@ import tkinter.messagebox
 import webbrowser
 
 
-# Function to shorten URL
+# Shorten URL function
 def shorten():
     url = longurl_entry.get().strip()  # Check the URL line. It should not be empty!
     if not url:
@@ -61,6 +61,7 @@ def redo():
     pass
 
 
+# Shows an information message to user
 def about():
     current_date = "26.03.2024"
     tkinter.messagebox.showinfo(
@@ -69,10 +70,12 @@ def about():
     )
 
 
+# Opens the README in Github
 def open_readme():
     webbrowser.open_new("https://github.com/storlak/URL-shortener/blob/main/README.md")
 
 
+# Opens the License file in Github
 def open_license():
     webbrowser.open_new("https://github.com/storlak/URL-shortener/blob/main/LICENSE")
 
@@ -89,9 +92,6 @@ root.config(menu=menubar)
 # File menu
 file_menu = tkinter.Menu(menubar, tearoff=0)
 menubar.add_cascade(label="File", menu=file_menu)
-file_menu.add_command(label="Shorten URL", command=shorten)
-file_menu.add_command(label="CopyShort URL", command=copyurl)
-file_menu.add_separator()
 file_menu.add_command(label="Exit", command=root.quit)
 
 # Edit menu
@@ -100,6 +100,9 @@ menubar.add_cascade(label="Edit", menu=edit_menu)
 edit_menu.add_command(label="Undo", command=undo)
 edit_menu.add_command(label="Redo", command=redo)
 edit_menu.add_command(label="Clear", command=clear_entries)
+edit_menu.add_separator()
+edit_menu.add_command(label="Shorten URL", command=shorten)
+edit_menu.add_command(label="CopyShort URL", command=copyurl)
 
 # Tools menu
 tools_menu = tkinter.Menu(menubar, tearoff=0)
