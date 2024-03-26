@@ -2,6 +2,8 @@ import tkinter
 from tkinter import ttk
 import pyshorteners
 import tkinter.messagebox
+import webbrowser
+from datetime import datetime
 
 
 # Function to shorten URL
@@ -50,10 +52,68 @@ def clear_entries():
     shorturl_entry.delete(0, tkinter.END)
 
 
+# Function for Undo operation
+def undo():
+    longurl_entry.edit_undo()
+
+
+# Function for Redo operation
+def redo():
+    longurl_entry.edit_redo()
+
+
+def about():
+    current_date = datetime.now().strftime("%d.%m.%Y")
+    tkinter.messagebox.showinfo(
+        "About",
+        f"URL-Shortner \nVersion: 2.0 \nAuthor: Kazure\nLast Update: {current_date}",
+    )
+
+
+def open_readme():
+    webbrowser.open_new("https://github.com/storlak/URL-shortener/blob/main/README.md")
+
+
+def open_license():
+    webbrowser.open_new("https://github.com/storlak/URL-shortener/blob/main/LICENSE")
+
+
 root = tkinter.Tk()
 root.title("URL Shortener")
 root.geometry("300x275")
 root.configure(bg="gray16")
+
+# menu bar
+menubar = tkinter.Menu(root)
+root.config(menu=menubar)
+# File menu
+file_menu = tkinter.Menu(menubar, tearoff=0)
+menubar.add_cascade(label="File", menu=file_menu)
+file_menu.add_command(label="Shorten URL", command=shorten)
+file_menu.add_command(label="CopyShort URL", command=copyurl)
+file_menu.add_separator()
+file_menu.add_command(label="Exit", command=root.quit)
+
+# Edit menu
+edit_menu = tkinter.Menu(menubar, tearoff=0)
+menubar.add_cascade(label="Edit", menu=edit_menu)
+edit_menu.add_command(label="Undo", command=undo)
+edit_menu.add_command(label="Redo", command=redo)
+edit_menu.add_command(label="Clear", command=clear_entries)
+
+# Tools menu
+tools_menu = tkinter.Menu(menubar, tearoff=0)
+menubar.add_cascade(label="Tools", menu=tools_menu)
+
+# Help menu
+help_menu = tkinter.Menu(menubar, tearoff=0)
+menubar.add_cascade(label="Help", menu=help_menu)
+help_menu.add_command(label="Welcome", command=about)
+help_menu.add_command(label="Documentation", command=open_readme)
+help_menu.add_separator()
+help_menu.add_command(label="View Licence", command=open_license)
+help_menu.add_separator()
+help_menu.add_command(label="About", command=about)
 
 # Labels, entries, widgets
 longurl_label = tkinter.Label(
