@@ -14,7 +14,10 @@ URLs are shortened using the pyshorteners library with the tinyurl service.
 ### Installing
 Download main.py, constants, gui_utils and url_shortener.
 You need Python >3.6 presintalled.
-Import pyshorteners module: pip install pyshorteners 
+Install pyshorteners module:
+```
+ pip install pyshorteners 
+```
 Run main.py.
 ### Shorten any URL
 Copy the URL you want to shorten and paste it into the first field.
