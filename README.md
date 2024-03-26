@@ -33,3 +33,6 @@ The URL field cannot be left blank. If left empty, you will receive a warning an
 
 ## Known Issues
 - Undo & Redo in Edit menu not working.
+
+![urlshort](https://github.com/storlak/URL-shortener/assets/101433369/f446dd74-5c02-4790-b029-2bcd2458e8ba)
+
