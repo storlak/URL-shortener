@@ -9,13 +9,13 @@ URLs are shortened using the pyshorteners library with the tinyurl service.
 3. [Versions and Changes](#versions-and-changes)
 4. [Known Issues](#known-issues)
 
-## How to Use
+## How to Use and Set up
 
-### installing
+### Installing
 Download main, constants, gui_utils and url_shortener.
 You need Python >3.6 presintalled.
 Run main.py.
-### shorten any URL
+### Shorten any URL
 Copy the URL you want to shorten and paste it into the first field.
 Click on the "Shorten URL" button. The shortened URL will appear in the second field below.
 You can copy your new URL to the clipboard using the "Copy" button.
