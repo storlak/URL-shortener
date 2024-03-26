@@ -7,6 +7,7 @@ URLs are shortened using the pyshorteners library with the tinyurl service.
 1. [How to Use](#how-to-use)
 2. [Error Handling](#error-handling)
 3. [Versions and Changes](#versions-and-changes)
+4. [Known Issues](#known-issues)
 
 ## How to Use
 Copy the URL you want to shorten and paste it into the first field.
@@ -16,17 +17,17 @@ The generated URL is permanent and will always be valid.
 ## Error Handling
 The URL field cannot be left blank. If left empty, you will receive a warning and the program will not execute.
 ## Versions and Changes
-version 3.0 - 26.03.2024
+🔻Version 3.0 - 26.03.2024
 - Top menu added. File, Edit, Tools, Help created.
 - File, Help contents created.
 - Documentation, Licence, About sections added.
 
-Version 2.0: - 25.03.2024
+🔻Version 2.0: - 25.03.2024
 - Added a Clear Clipboard button and function.
 - ReadMe file created.
 - MIT licence added.
 
-Version 1.0: - 21.03.2024
+🔻Version 1.0: - 21.03.2024
 - Added Shorten URL and Copy buttons.
 - Created a user interface using Tkinter.
 
