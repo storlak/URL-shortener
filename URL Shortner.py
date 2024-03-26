@@ -3,7 +3,6 @@ from tkinter import ttk
 import pyshorteners
 import tkinter.messagebox
 import webbrowser
-from datetime import datetime
 
 
 # Function to shorten URL
@@ -54,16 +53,16 @@ def clear_entries():
 
 # Function for Undo operation
 def undo():
-    longurl_entry.edit_undo()
+    pass
 
 
 # Function for Redo operation
 def redo():
-    longurl_entry.edit_redo()
+    pass
 
 
 def about():
-    current_date = datetime.now().strftime("%d.%m.%Y")
+    current_date = "26.03.2024"
     tkinter.messagebox.showinfo(
         "About",
         f"URL-Shortner \nVersion: 3.0 \nAuthor: Kazure\nLast Update: {current_date}",
@@ -86,6 +85,7 @@ root.configure(bg="gray16")
 # menu bar
 menubar = tkinter.Menu(root)
 root.config(menu=menubar)
+
 # File menu
 file_menu = tkinter.Menu(menubar, tearoff=0)
 menubar.add_cascade(label="File", menu=file_menu)
@@ -130,7 +130,7 @@ copyurl_button = tkinter.Button(
     root, text="Copy", fg="black", bg="Turquoise", command=copyurl
 )
 bot_label = tkinter.Label(
-    root, text="Version: 2.0 - Kazure", fg="black", bg="Turquoise"
+    root, text="Version: 3.0 - Kazure", fg="black", bg="Turquoise"
 )
 
 # Placing widgets, labels, entries
