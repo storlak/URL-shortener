@@ -57,7 +57,7 @@ root.configure(bg="gray16")
 
 # Labels, entries, widgets
 longurl_label = tkinter.Label(
-    root, text="Enter URL to Shorten", fg="#FFFFFF", bg="gray16"
+    root, text="Enter a long URL to Shorten", fg="#FFFFFF", bg="gray16"
 )
 longurl_entry = tkinter.Entry(root, width=35)
 shorten_button = tkinter.Button(
