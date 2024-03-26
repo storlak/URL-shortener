@@ -66,7 +66,7 @@ def about():
     current_date = datetime.now().strftime("%d.%m.%Y")
     tkinter.messagebox.showinfo(
         "About",
-        f"URL-Shortner \nVersion: 2.0 \nAuthor: Kazure\nLast Update: {current_date}",
+        f"URL-Shortner \nVersion: 3.0 \nAuthor: Kazure\nLast Update: {current_date}",
     )
 
 
