@@ -3,6 +3,8 @@ URL Shortener is a simple program written in Python to shorten long URLs.
 It features a user-friendly interface built using Tkinter library. 
 URLs are shortened using the pyshorteners library with the tinyurl service. New URL's are valid lifetime and do not expire.
 
+![Static Badge](https://img.shields.io/badge/python-tkinter-blue)
+
 ## CONTENTS
 1. [How to Use](#how-to-use)
 2. [Error Handling](#error-handling)
