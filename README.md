@@ -4,6 +4,9 @@ It features a user-friendly interface built using Tkinter library.
 URLs are shortened using the pyshorteners library with the tinyurl service. New URL's are valid lifetime and do not expire.
 
 ![Static Badge](https://img.shields.io/badge/python-tkinter-blue)
+![Static Badge](https://img.shields.io/badge/Version-2.0-green)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/111266776829036638)
+
 
 ## CONTENTS
 1. [How to Use](#how-to-use)
