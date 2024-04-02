@@ -5,6 +5,8 @@ URLs are shortened using the pyshorteners library with the tinyurl service. New 
 
 ![Static Badge](https://img.shields.io/badge/python-tkinter-blue)
 ![Static Badge](https://img.shields.io/badge/Version-2.0-green)
+![Static Badge](https://img.shields.io/badge/IDE-VsCode-blue)
+
 
 ## CONTENTS
 1. [How to Use](#how-to-use)
