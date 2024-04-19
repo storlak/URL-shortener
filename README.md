@@ -26,7 +26,7 @@ You need Python >3.6 presintalled.
 Install pyshorteners module:
 
 ```
- pip install pyshorteners
+ > pip install pyshorteners
 ```
 
 Run main.py.
