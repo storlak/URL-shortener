@@ -72,4 +72,7 @@ The URL field cannot be left blank. If left empty, you will receive a warning an
 
 - Undo & Redo in Edit menu not working.
 
+[![Gmail Badge](https://img.shields.io/badge/-serdartorlak-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:serdartorlak@gmail.com)](mailto:serdartorlak@gmail.com)
+![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fstorlak%2FPythonMiniProjects&leftColor=000000&rightColor=0adb3f&type=total&label=Viewers&style=none)
+
 ![urlshort](https://github.com/storlak/URL-shortener/assets/101433369/f446dd74-5c02-4790-b029-2bcd2458e8ba)
