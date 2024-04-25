@@ -10,6 +10,8 @@ It is part of Python Mini Projects List of my GitHub.
 ![Static Badge](https://img.shields.io/badge/requirements-pyshorteners-red)
 ![Static Badge](https://img.shields.io/badge/Version-2.0-green)
 
+![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fstorlak%2FPythonMiniProjects&leftColor=000000&rightColor=0adb3f&type=total&label=Viewers&style=none)
+
 ## CONTENTS
 
 1. [How to Use](#how-to-use)
@@ -72,7 +74,9 @@ The URL field cannot be left blank. If left empty, you will receive a warning an
 
 - Undo & Redo in Edit menu not working.
 
+Contact me!
 [![Gmail Badge](https://img.shields.io/badge/-serdartorlak-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:serdartorlak@gmail.com)](mailto:serdartorlak@gmail.com)
-![Views Counter](https://views-counter.vercel.app/badge?pageId=https%3A%2F%2Fgithub%2Ecom%2Fstorlak%2FPythonMiniProjects&leftColor=000000&rightColor=0adb3f&type=total&label=Viewers&style=none)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/111266776829036638?style=flat&logo=mastodon&color=blue)
+[![Twitter Badge](https://img.shields.io/badge/-@serdartorlak-1ca0f1?style=flat&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/serdartorlak)](https://twitter.com/serdartorlak)
 
 ![urlshort](https://github.com/storlak/URL-shortener/assets/101433369/f446dd74-5c02-4790-b029-2bcd2458e8ba)
