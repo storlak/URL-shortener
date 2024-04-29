@@ -78,7 +78,7 @@ file_menu.add_command(label="Exit", command=root.quit)
 # Edit menu
 edit_menu = tkinter.Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Edit", menu=edit_menu)
-edit_menu.add_command(label="Clear", command=clear_entries)
+edit_menu.add_command(label="Clear Clipboard", command=clear_entries)
 edit_menu.add_separator()
 edit_menu.add_command(label="Shorten URL", command=shorten)
 edit_menu.add_command(label="CopyShort URL", command=copyurl)
