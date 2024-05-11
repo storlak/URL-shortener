@@ -43,6 +43,7 @@ The generated URL is permanent and will always be valid.
 ## Error Handling
 
 The URL field cannot be left blank. If left empty, you will receive a warning and the program will not execute.
+On Linux systems the interface pops up smaller than Windows.
 
 ## Versions and Changes
 
