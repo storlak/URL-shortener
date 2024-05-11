@@ -86,6 +86,7 @@ edit_menu.add_command(label="CopyShort URL", command=copyurl)
 # Tools menu
 tools_menu = tkinter.Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Tools", menu=tools_menu)
+tools_menu.add_command(label="Quick Commands")
 
 # Help menu
 help_menu = tkinter.Menu(menubar, tearoff=0)
