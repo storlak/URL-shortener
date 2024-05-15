@@ -79,6 +79,13 @@ On Linux systems the interface pops up smaller than Windows.
 ## Known Issues
 
 - Undo & Redo in Edit menu not working.
+- It is possible that copy and shorten URL buttons may not work on different OPs.
+
+## Roadmap
+
+- History menu will be added. It will implement 5 last shortened URLS.
+- Keyboard shortcuts will be added.
+-
 
 ## Contact me!
 
