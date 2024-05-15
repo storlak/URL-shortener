@@ -109,7 +109,7 @@ help_menu.add_command(label="About", command=about)
 
 # Labels, entries, widgets
 longurl_label = tkinter.Label(
-    root, text="Enter a long URL to Shorten", fg="TEXT_COLOR", bg=BACKGROUND_COLOR
+    root, text="Enter a long URL to Shorten", fg=TEXT_COLOR, bg=BACKGROUND_COLOR
 )
 longurl_entry = tkinter.Entry(root, width=35)
 shorten_button = tkinter.Button(
