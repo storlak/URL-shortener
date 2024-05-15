@@ -54,6 +54,10 @@ def open_readme():
     )
 
 
+def welcome():
+    menu_utils.open_url_in_browser("https://github.com/storlak/URL-shortener")
+
+
 # Opens the License file in Github
 def open_license():
     menu_utils.open_url_in_browser(
@@ -91,7 +95,7 @@ tools_menu.add_command(label="Quick Commands")
 # Help menu
 help_menu = tkinter.Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Help", menu=help_menu)
-help_menu.add_command(label="Welcome", command=about)
+help_menu.add_command(label="Welcome", command=welcome)
 help_menu.add_command(label="Documentation", command=open_readme)
 help_menu.add_separator()
 help_menu.add_command(label="View Licence", command=open_license)
