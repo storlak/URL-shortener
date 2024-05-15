@@ -1,4 +1,4 @@
-# URL SHORTENER ReadMe FILE
+# URL SHORTENER README FILE
 
 URL Shortener is a simple program written in Python to shorten long URLs.
 It features a user-friendly interface built via Tkinter library.
@@ -17,6 +17,7 @@ It is part of Python Mini Projects List of my GitHub.
 1. [How to Use](#how-to-use)
 
 a. [Installing](#installing)
+
 b. [Shorten URL](#shorten-any-url)
 
 2. [Error Handling](#error-handling)
