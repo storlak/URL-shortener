@@ -16,8 +16,8 @@ It is part of Python Mini Projects List of my GitHub.
 
 1. [How to Use](#how-to-use)
 
-   a.[Installing](#installing)
-   b.[Shorten URL](#shorten-any-url)
+a. [Installing](#installing)
+b. [Shorten URL](#shorten-any-url)
 
 2. [Error Handling](#error-handling)
 3. [Versions and Changes](#versions-and-changes)
