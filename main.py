@@ -9,15 +9,20 @@ from constants import *
 
 # Shorten URL function
 def shorten():
-    url = longurl_entry.get().strip()  # Check the URL line. It should not be empty!
+    url = longurl_entry.get().strip()
     if not url:
         gui_utils.show_error_message("Error", "Please enter a URL.")
         return
 
-    short_url = url_shortener.shorten_url(url)
-    if short_url:
-        shorturl_entry.delete(0, tkinter.END)
-        shorturl_entry.insert(0, short_url)
+    try:
+        short_url = url_shortener.shorten_url(url)
+        if short_url:
+            shorturl_entry.delete(0, tkinter.END)
+            shorturl_entry.insert(0, short_url)
+    except Exception as e:
+        gui_utils.show_error_message(
+            "Error", f"An error occurred while shortening the URL: {str(e)}"
+        )
 
 
 # Copy shortened URL to clipboard
@@ -67,8 +72,8 @@ def open_license():
 
 root = tkinter.Tk()
 root.title(APP_NAME)
-root.geometry("300x275")
-root.configure(bg="gray16")
+root.geometry(f"{WIDTH}x{HEIGHT}")
+root.configure(bg=BACKGROUND_COLOR)
 
 # menu bar
 menubar = tkinter.Menu(root)
@@ -104,14 +109,16 @@ help_menu.add_command(label="About", command=about)
 
 # Labels, entries, widgets
 longurl_label = tkinter.Label(
-    root, text="Enter a long URL to Shorten", fg="#FFFFFF", bg="gray16"
+    root, text="Enter a long URL to Shorten", fg="TEXT_COLOR", bg=BACKGROUND_COLOR
 )
 longurl_entry = tkinter.Entry(root, width=35)
 shorten_button = tkinter.Button(
     root, text="Shorten URL", fg="black", bg="Turquoise", command=shorten
 )
 separator = ttk.Separator(root, orient="horizontal")
-shorturl_label = tkinter.Label(root, text="Shortened URL", fg="#FFFFFF", bg="gray16")
+shorturl_label = tkinter.Label(
+    root, text="Shortened URL", fg=TEXT_COLOR, bg=BACKGROUND_COLOR
+)
 shorturl_entry = tkinter.Entry(root, width=35)
 copyurl_button = tkinter.Button(
     root, text="Copy", fg="black", bg="Turquoise", command=copyurl
