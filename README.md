@@ -23,6 +23,7 @@ It is part of Python Mini Projects List of my GitHub.
 2. [Error Handling](#error-handling)
 3. [Versions and Changes](#versions-and-changes)
 4. [Known Issues](#known-issues)
+5. [Road Map](#roadmap)
 
 ## How to Use and Set up
 
@@ -85,7 +86,8 @@ On Linux systems the interface pops up smaller than Windows.
 
 - History menu will be added. It will implement 5 last shortened URLS.
 - Keyboard shortcuts will be added.
--
+- .exe file will be created.
+- appimage and flatpak will be created.
 
 ## Contact me!
 
